@@ -1,6 +1,6 @@
 ## Task of the assignment:
 
--- Create a login, signup and logout responsive page
+-- Create a login, signup and logout responsive page and create a Linked List Data Structure using JavaScript and add the methods like reverse, sort and use this method to find the second greatest number in the list
 
 ## Tools Used:
 
@@ -24,7 +24,7 @@
 
     -- You can click the logout button to go back to the home screen
 
-## LLinked List Assignment:
+## Linked List Assignment:
 
     -- I have provided the Linked Link assignment in this repo
     -- I have added the methods like push, pop, reverse, toArr and sort
