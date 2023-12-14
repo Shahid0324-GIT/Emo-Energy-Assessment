@@ -3,7 +3,6 @@ const express = require("express");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
-const { notFound, errorHandler } = require("./middlewares/errorMiddleware");
 
 // Environment Varaibles
 dotenv.config();
@@ -22,10 +21,6 @@ app.get("/", (req, res) => {
 
 // Users Endpoint
 app.use("/api/user", userRoutes);
-
-// Error Handlers
-app.use(notFound);
-app.use(errorHandler);
 
 // Initialising the server
 app.listen(PORT, () => {
